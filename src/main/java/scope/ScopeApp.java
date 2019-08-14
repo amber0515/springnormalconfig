@@ -16,6 +16,8 @@ public class ScopeApp {
         System.out.println("s" + s1.equals(s2));
         System.out.println("p" + p1.equals(p2));
 
+        System.out.println();
+        System.out.println("123123");
         context.close();
     }
 }
