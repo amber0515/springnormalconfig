@@ -18,6 +18,8 @@ public class ScopeApp {
 
         System.out.println();
         System.out.println("123123");
+
+        System.out.println("123412434");
         context.close();
     }
 }
