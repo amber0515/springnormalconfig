@@ -42,7 +42,7 @@ public class ElConfig {
     private String bookName;
 
     @Autowired
-    Environment environment;
+    Environment environment;//spring
 
 //    public ElConfig(@Value("${book.name}") String bookName){
 //        this.bookName =bookName;
@@ -59,6 +59,7 @@ public class ElConfig {
             System.out.println(randomNumber);
             System.out.println(fromAnother);
 
+            //IOUtils是apache
             System.out.println(IOUtils.toString(testFile.getInputStream()));
             System.out.println(IOUtils.toString(url.getInputStream()));
             System.out.println(bookName);

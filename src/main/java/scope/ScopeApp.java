@@ -5,6 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class ScopeApp {
 
     public static void main(String[] args) {
+        //作为spring容器，接收配置类输入
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ScopeConfig.class);
 
         DemoSingletonService s1 = context.getBean(DemoSingletonService.class);
