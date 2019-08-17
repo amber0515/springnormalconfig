@@ -1,0 +1,1 @@
+使用不同注解，对实例创建属性（singleton，prototype等）进行控制。

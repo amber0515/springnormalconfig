@@ -9,8 +9,8 @@ public class InitApp {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(PrePostConfig.class);
 
-        BeanWayService beanWayService = context.getBean(BeanWayService.class);
-        JSR250WayService jsr250WayService = context.getBean(JSR250WayService.class);
+        context.getBean(BeanWayService.class);
+        context.getBean(JSR250WayService.class);
 
         context.close();
     }
